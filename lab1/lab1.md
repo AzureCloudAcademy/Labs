@@ -13,3 +13,18 @@ After you complete this lab, you will be able to:
 - Customize Kanban boards.
 - Define dashboards.
 - Customize team process.
+
+
+## 1) Choose Free tier for Azure Devops
+## 2) Connect to Aure portal
+ 
+ - Go to `https://portal.azure.com` then to organisation template`https://portal.azure.com/#view/AzureTfsExtension/OrganizationsTemplateBlade`
+ - Organisation already created "olfaarfani" in this image screenshot
+  ![Setup an Organisation](./image.png)
+  ![Organisation](./organisation.png)
+
+ ## 3) Create a project
+  - project name "shoppingApp"
+  - Setting to "private"
+  - Advanced : Integrate with Git repository
+  - Different work item types : Basic, Agile, Scrum, CMMI
