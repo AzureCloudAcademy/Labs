@@ -1,3 +1,4 @@
+**Prerequisites**
 1. Create outlook account
 
 https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0 
@@ -15,7 +16,7 @@ https://dev.azure.com/Gopal-DevOps2025-July/
  4. Create GitHub Accounts 
 https://github.com/ 
 
-
+----------------------------------------***************----------------------------------------
 
 # First Project Setup
 
