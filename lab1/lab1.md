@@ -1,3 +1,22 @@
+1. Create outlook account
+
+https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0 
+
+2. Create Azure Accounts 
+https://azure.microsoft.com/en-us/ 
+
+https://portal.azure.com/#allservices/category/All 
+
+3. Azure DevOps
+https://aex.dev.azure.com/me?mkt=en-US 
+https://dev.azure.com/ 
+https://dev.azure.com/Gopal-DevOps2025-July/ 
+
+ 4. Create GitHub Accounts 
+https://github.com/ 
+
+
+
 # First Project Setup
 
 This section provides instructions for setting up your first project. Follow the steps below to initialize your development environment, install necessary dependencies, and verify the setup.
