@@ -1,3 +1,4 @@
+
 **Prerequisites**
 1. Create outlook account
 
@@ -16,44 +17,47 @@ https://dev.azure.com/Gopal-DevOps2025-July/
  4. Create GitHub Accounts 
 https://github.com/ 
 
-----------------------------------------***************----------------------------------------
 
-# First Project Setup
+# Instructions to create an Azure DevOps Organization (you only have to do this once)
 
-This section provides instructions for setting up your first project. Follow the steps below to initialize your development environment, install necessary dependencies, and verify the setup.
+> **Note**: Start at step 3, if you do already have a **personal Microsoft Account** setup and an active Azure Subscription linked to that account.
 
-## EShopWeb solution Github project : https://github.com/MicrosoftLearning/eShopOnWeb
+1. Use a private browser session to get a new **personal Microsoft Account (MSA)** at `https://account.microsoft.com`.
 
-## Objectives lab1
-After you complete this lab, you will be able to:
+1. Using the same browser session, sign up for a free Azure subscription at `https://azure.microsoft.com/free`.
 
-- Create project, Manage teams, areas, and iterations.
-- Manage work items.
-- Manage sprints and capacity.
-- Customize Kanban boards.
-- Define dashboards.
-- Customize team process.
+1. Open a browser and navigate to Azure portal at `https://portal.azure.com`, then search at the top of the Azure portal screen for **Azure DevOps**. In the resulting page, click **Azure DevOps organizations**.
 
+1. Next, click on the link labelled **My Azure DevOps Organizations** or navigate directly to `https://aex.dev.azure.com`.
 
-## 1) Choose Free tier for Azure Devops
-## 2) Connect to Aure portal
- 
- - Go to `https://portal.azure.com` then to organisation template`https://portal.azure.com/#view/AzureTfsExtension/OrganizationsTemplateBlade`
- - Organisation already created "olfaarfani" in this image screenshot
-  ![Setup an Organisation](./image.png)
-  ![Organisation](./organisation.png)
+1. On the **We need a few more details** page, select **Continue**.
 
- ## 3) Create a project
-  - project name "shoppingApp"
-  - Setting to "private"
-  - Advanced : Integrate with Git repository
-  - Different work item types : Basic, Agile, Scrum, CMMI
+1. In the drop-down box on the left, choose **Default Directory**, instead of **Microsoft Account**.
 
+1. If prompted (_"We need a few more details"_), provide your name, e-mail address, and location and click **Continue**.
 
+1. Back at `https://aex.dev.azure.com` with **Default Directory** selected click the blue button **Create new organization**.
 
+1. Accept the _Terms of Service_ by clicking **Continue**.
 
--------------------
-1. Setup - Organization
-2. Setup - Projects
-3. Add Team member
-4. Setup Orgnization
+1. If prompted (_"Almost done"_), leave the name for the Azure DevOps organization at default (it needs to be a globally unique name) and pick a hosting location close to you from the list.
+
+1. Once the newly created organization opens in **Azure DevOps**, select **Organization settings** in the bottom left corner.
+
+1. At the **Organization settings** screen select **Billing** (opening this screen takes a few seconds).
+
+1. Select **Setup billing** and on the right-hand side of the screen, select your **Azure Subscription** and then select **Save** to link the subscription with the organization.
+
+1. Once the screen shows the linked Azure Subscription ID at the top, change the number of **Paid parallel jobs** for **MS Hosted CI/CD** from 0 to **1**. Then select **SAVE** button at the bottom.
+
+   > **Note**: You may **wait a couple of minutes before using the CI/CD capabilities** so that the new settings are reflected in the backend. Otherwise, you will still see the message _"No hosted parallelism has been purchased or granted"_.
+
+1. In **Organization Settings**, go to section **Pipelines** and click **Settings**.
+
+1. Toggle the switch to **Off** for **Disable creation of classic build pipelines** and **Disable creation of classic release pipelines**
+
+   > **Note**: The **Disable creation of classic release pipelines** switch sets to **On** hides classic release pipeline creation options such as the **Release** menu in the **Pipeline** section of DevOps projects.
+
+1. In **Organization Settings**, go to section **Security** and click **Policies**.
+
+1. Toggle the switch to **On** for **Allow public projects**
