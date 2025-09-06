@@ -61,3 +61,82 @@ https://github.com/
 1. In **Organization Settings**, go to section **Security** and click **Policies**.
 
 1. Toggle the switch to **On** for **Allow public projects**
+2. 
+
+
+-----------
+
+Sprint1 2 weeks of the sprint 
+
+Sprint Create 
+
+ 🔹 Azure Cloud Academy – Sample Sprint Plan
+1. Why do we use Sprints?
+
+Agile teams work in short, time-boxed iterations (called sprints) instead of long project cycles.
+
+Each sprint delivers a working increment (something usable & testable).
+
+Helps with predictability, focus, and continuous improvement.
+
+👉 Key Benefit: “Instead of waiting 6 months for results, we deliver value every 2 weeks.”
+
+2. Sprint Duration (Best Practice)
+
+Most common: 2 weeks (10 working days, Mon–Fri)
+
+Can be 1–4 weeks, depending on project size and team maturity.
+
+Shorter sprints = faster feedback, but more planning overhead.
+
+👉 For learning, we’ll take a 2-week sprint example.
+
+3. Our Sample Sprint (Azure Cloud Academy Demo)
+
+Sprint Name: Sprint 1 – Sep 8 to Sep 19 (2 Weeks)
+
+Start Date: Monday, 8th Sept 2025
+
+End Date: Friday, 19th Sept 2025
+
+Working Days: 10 (Mon–Fri x 2 weeks)
+
+Capacity (per user): 60 hrs (6 productive hrs × 10 days)
+
+4. Sprint Workflow (Day-by-Day Plan)
+Day	Activity	Example in Azure Cloud Context
+Day 1 (Mon)	Sprint Planning + Requirements	Define story: “Deploy a Web App in Azure with CI/CD pipeline”
+Day 2 (Tue)	Analysis & Design	Decide which Azure services (App Service, DevOps pipeline, Storage)
+Day 3 (Wed)	Build / Compile	Create Resource Group + Bicep/Terraform infra
+Day 4 (Thu)	Unit Testing	Verify infra deployment works
+Day 5 (Fri)	Code Review / Analysis	Peer review IaC templates, YAML pipeline
+Day 6 (Mon)	Security Scanning	Run tfsec / SonarQube checks
+Day 7 (Tue)	Deployment	Deploy App + Pipeline to Azure
+Day 8 (Wed)	Testing (Validate Deployment)	Test app functionality + monitor in Azure
+Day 9 (Thu)	Bug Fixing + Hardening	Fix pipeline/deployment issues
+Day 10 (Fri)	Sign-off + Sprint Review + Retrospective	Demo to class → Collect feedback → Note improvements
+5. Key Agile Ceremonies You Can Explain
+
+Sprint Planning (Day 1): Decide what to build.
+
+Daily Scrum (15 min): Quick check-in: Yesterday, Today, Blockers.
+
+Sprint Review (End): Demo the working solution.
+
+Sprint Retrospective (End): Reflect on what went well / improve next sprint.
+
+✅ With this, students see:
+
+Why sprints matter
+
+How many days are used (2 weeks = 10 working days)
+
+What actually happens inside a sprint (task flow + ceremonies)
+
+A real Azure Cloud Example Story to make it practical
+
+
+
+
+
+
