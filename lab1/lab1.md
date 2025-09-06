@@ -48,3 +48,12 @@ After you complete this lab, you will be able to:
   - Setting to "private"
   - Advanced : Integrate with Git repository
   - Different work item types : Basic, Agile, Scrum, CMMI
+
+
+
+
+-------------------
+1. Setup - Organization
+2. Setup - Projects
+3. Add Team member
+4. Setup Orgnization
