@@ -1,5 +1,44 @@
 Azure ADO Board
 
+Azure DevOps is a cloud-based, end-to-end platform for DevOps practices — enabling teams to:
+Plan work (Azure Boards)
+Collaborate on code (Azure Repos)
+Build, test, and deploy consistently (Azure Pipelines)
+Ensure code quality (Azure Test Plans)
+Share and manage artifacts (Azure Artifacts)
+
+------------
+
+Flow: Backlog → Sprint Planning → Execution → Review → Retrospective → Repeat​
+✔ Faster delivery of value​
+✔ Adapts to change​
+✔ Better collaboration & transparency​
+✔ Continuous improvement & learning​
+✔ Higher customer satisfaction
+
+
+Agile = Iterative & incremental way of delivering value​
+Sprints (1–4 weeks) → Plan, Build, Test, Deliver, Improve​
+Roles: Product Owner (WHAT), Scrum Master (PROCESS), Team (HOW)​
+Events: Planning, Daily Scrum, Review, Retrospective​
+Artifacts: Product Backlog, Sprint Backlog, Increment
+
+
+------------------
+
+where a team plans, builds, tests, reviews, and improves continuously.
+1
+Product Owner = What & Why
+Development Team = How & Delivery
+Scrum Master = Process Coach
+
+Product Owner → Owns the Product Backlog (What needs to be built, priorities).
+Scrum Master → Owns the Process (Ensures Agile practices, removes blockers).
+Development Team → Owns the Sprint Backlog & Delivery (How to build it, tasks, execution).
+
+
+
+===============================
 1. Epic (Big Goal) - Big project goal / Requirement / complete in multiple sprint
 2. Feature (Capability) - part of that big dream
 3. Story (User Story / Small Need) - small piece of work
