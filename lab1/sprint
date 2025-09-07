@@ -14,7 +14,7 @@ Task = Actual work to make it happen
 
 Epic → Feature → Story → Task
 
-
+(small/medium/large)
 -----------------------
  🔹 1. Story Point vs Hours
 
@@ -23,9 +23,18 @@ Story Points measure relative effort (complexity, work, risk).
 
 👉 Example (Fibonacci scale):
 
-1 Point → 2–3 hours ka kaam (very small)
+1 Point → 2–3 hours (very small)
 2 Points → 4–6 hours (small task)
 3 Points → 1 day work (medium)
 5 Points → 2–3 days work (bigger story)
 8 Points → ~1 week work (complex story)
 13 Points → More than a week (very complex, maybe break into smaller stories)
+
+
+■ Agile Sprint Cycle
+1. Sprint Planning → Select stories & define sprint goal
+2. Daily Scrum → 15-min team sync
+3. Development & Testing → Work on stories & tasks
+4. Sprint Review → Demo to stakeholders
+5. Sprint Retrospective → Reflect & improv
+
