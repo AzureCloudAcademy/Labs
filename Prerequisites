@@ -16,19 +16,25 @@ https://dev.azure.com/Gopal-DevOps2025-July/
 https://github.com/ 
 
 ## Labs requirements 
-The labs require Microsoft Edge or an Azure DevOps-supported browser.
+- The labs require Microsoft Edge or an Azure DevOps-supported browser.
 
-Set up an Azure Subscription: If you don't already have an Azure subscription, create one by following the instructions on this page or visit https://azure.microsoft.com/free to sign up for a free.
+- Set up an Azure Subscription: If you don't already have an Azure subscription, create one by following the instructions on this page or visit https://azure.microsoft.com/free to sign up for a free.
 
-Set up an Azure DevOps organization: If you don't already have an Azure DevOps organization that you can use for the labs, create one by following the instructions on this page, or at Create an organization or project collection.
+- Set up an Azure DevOps organization: If you don't already have an Azure DevOps organization that you can use for the labs, create one by following the instructions on this page, or at Create an organization or project collection.
 
-Git for Windows download page. This will be installed as part of prerequisites for this lab.
+- Git for Windows download page. This will be installed as part of prerequisites for this lab.
 
-Visual Studio Code. This will be installed as part of prerequisites for this lab.
+- Visual Studio Code. This will be installed as part of prerequisites for this lab.
++ MCP server vscode extension to accelerate 
 
-Azure CLI. Install the Azure CLI on the self-hosted agent machines.
+- Azure CLI. Install the Azure CLI on the self-hosted agent machines.
 
-.NET SDK - Latest version. Install the .NET SDK on the self-hosted agent machines.
+- .NET SDK - Latest version. Install the .NET SDK on the self-hosted agent machines.
+
+Helping VSCode tools extensions
+
+* Install Bicep vscode extension
+* ...
 
 
  
