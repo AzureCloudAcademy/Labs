@@ -7,7 +7,7 @@ Labs public repository to share labs content with participants
 - **Lab 2:** [Creating Your First Project and Setting up Your Organization](lab2/lab2.md)
 - **Lab 3:** [Integrating Azure AD with Azure DevOps](lab3/lab3.md)
 - **Lab 4:** [Configuring Project Permissions](lab4/lab4.md)
-- **Lab 5:** [Initialize and Connect to Your First Git Repository](lab5/lab5.md)
+- **Lab 5:** [Initialize and Connect to Your First Git - Azure Repository](lab5/lab5.md)
 - **Lab 6:** [Initialize Cloud Shell and Azure DevOps CLI](lab6/lab6.md)
 - **Lab 7:** [Getting Started with Git and GitHub](lab7/lab7.md)
 - **Lab 8:** [Creating a Branch and Merging Changes](lab8/lab8.md)
