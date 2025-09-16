@@ -1,0 +1,69 @@
+Agenda deploy Azure static webapp with Azure DevOps
+
+Setup ReactJS APP 
+
+    Setup git (Azure repo) with local system 
+
+ - Install git 
+
+ - connect local to version control 
+
+ - push to Azure DevOps (Repo) 
+
+ - Raise a PR to Dev, branch  
+
+  2. Create CICD 
+
+       - Create Agents 
+
+      - Stablish connection with Azure DevOps 
+
+     -  Create Static Web Application to deploy 
+
+      -  Create YML Pipeline  
+
+3. Azure Cloud testing/ Load testing 
+
+ 
+
+Setup:  - Done 
+
+    Install git 
+
+    Install NodeJS 
+
+    Install VS code 
+
+    Clone local 
+
+    Publish my code to Azure Repo 
+
+Deploy the Static WebApp - InProgress 
+
+    Install agent - Agent 
+
+    Connect with Azure cloud – Service principle 
+
+    Create Static WebApp Azure cloud – Done 
+
+YMAL 
+
+1. Cloning code 
+
+2. Agent/VM 
+
+3. Downloading the dependency 
+
+4. compile the code (unit Test/ JMeter testing/ Load testing) 
+
+5. Create the output (Artifact) 
+
+6. Deployment 
+
+ 
+
+ 
+
+ 
+
+ 
