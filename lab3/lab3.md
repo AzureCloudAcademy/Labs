@@ -23,7 +23,21 @@ The classic approach involves manual configuration of Active Directory integrati
 
 ### 1. Create and configure user accounts
 
+- Create new user
+
+Setting	Value
+User principal name	az104-user1
+Display name	az104-user1
+Auto-generate password	checked
+Account enabled	checked
+Job title (Properties tab)	IT Lab Administrator
+Department (Properties tab)	IT
+Usage location (Properties tab)	<location>
+
+
 - Invite external user
+
+**Sign in your tenant**
 
 PowerShell ``
 
@@ -69,8 +83,8 @@ It's easy to get started with the "Integrate Active Directory with Microsoft Ent
 
 1.  **Log in to Cloudairy**: Get into your Cloudairy account.
 2.  **Go to Templates Library**: Find the section dedicated to all the available templates.
-3.  **Search for "AD Entra Integration"**: Use the search bar to quickly find this specific template.
-4.  **Preview the Template**: Click on it to see its integration workflow and connection steps.
+3.  **Search for "Integrate Active Directory with Microsoft Entra ID Template.."**: Use the search bar to quickly find this specific template.
+4.  **Preview the Template**: Go to : `https://app.cloudairy.com/templates` Click on it to see its integration workflow and connection steps.
 5.  **Start Planning**: Select "Open Template" to begin customizing it for your environment.
 6.  **Map Your Current Setup**: Document your existing on-prem directory Azure structure and user groups.
 7.  **Configure Sync Settings**: Plan how your Azure AD Sync will handle user accounts and permissions.
