@@ -51,3 +51,5 @@ coverage/
 # Azure labs for now disabled
 lab4/
 lab5/
+
+private/
