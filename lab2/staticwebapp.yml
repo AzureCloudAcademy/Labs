@@ -1,0 +1,48 @@
+trigger:
+ - main
+
+pool:
+ vmImage: ubuntu-latest
+
+#Import variable groups
+
+variables:
+ - group: AzCloudAcademyWebApp
+
+stages:
+  - stage: ContinuesIntegration
+    displayName: "Continues Integration"
+    jobs:
+      - job: CI
+        displayName: "build and deploye the app"
+        steps:
+          # checkout the code
+          - checkout : self
+          - task: NodeTool@0
+            inputs:
+             versionSpec: '22.x'
+            displayName: "install nodejs"
+
+          #Install dependency
+          - script: |
+              npm ci
+            displayName: "install dependency"
+
+          #build application
+          - script: |
+              npm run build
+            displayName: "build application"
+
+  - stage: CD
+    displayName: "Continues Deployment"
+    jobs:
+        - job: Deployment
+          displayName: "Deploye the static web app"
+
+          steps:
+          - task: AzureStaticWebApp@0
+            inputs:
+              app_location: '/'
+              output_location: 'build'
+              azure_static_web_apps_api_token: $(deployment_token_dev)
+              # azure_static_web_apps_api_token: "99ee4c31c7caeea6951f73f8f37d0a531d77da461ffd859a8d0adb4954409d4901-bc894fa2-7add-48e9-8cbc-ca2bad739fc9010043108636e110"
