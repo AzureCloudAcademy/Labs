@@ -136,6 +136,18 @@ What actually happens inside a sprint (task flow + ceremonies)
 A real Azure Cloud Example Story to make it practical
 
 
+# Assignment
+🚀 Azure Cloud Academy – Weekly Assignment 🌍
+
+✅ Create your accounts: Outlook, Azure Cloud, Azure DevOps, GitHub
+✅ Create an Azure DevOps Organization & Project
+✅ Onboard your team at the organization level
+
+📸 Final Task:
+Take a screenshot of your setup, create a LinkedIn post, and tag the Azure Cloud Academy page so we can celebrate your progress together 🎉
+
+
+
 
 
 

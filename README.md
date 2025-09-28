@@ -28,6 +28,15 @@ Labs public repository to share labs content with participants
 
 For answers to common questions about Azure DevOps, see the Frequently Asked Questions.
 
+### Q. [CI/CD Pipeline creation] Why chosing Agent Deployment rather than Just manual 
+In order to limit Operational overhead and managing role based access resources, MS Azure recommands using Agent deployment
+
+### Q. [Azure Load testing] Report export?
+For now we shown only csv, excel report test results generation.
+
+### Q. [App Services, Function runtime] What's the behind cost calculation for Pay as you go on Function App usage ?
+First 1000 requests for the Free tier is free, then cost depends on CPU function usage
+
 ## 4) 📌 Contributing
 
 We welcome contributions! During preview, please file issues for bugs, enhancements, or documentation improvements.
