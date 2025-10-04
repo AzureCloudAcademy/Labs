@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: redish-app
+  name: redish-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redish-app
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: redish-app
+    spec:
+      containers:
+      - image: demoaksregistry.azurecr.io/redish-app:latest
+        name: redish-app
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}

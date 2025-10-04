@@ -53,3 +53,5 @@ lab4/
 lab5/
 
 private/
+
+*.terraform/

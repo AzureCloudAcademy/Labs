@@ -7,6 +7,51 @@ This guide walks you through provisioning a minimal cluster (2 nodes) using Infr
 - Terraform installed locally
 - Azure CLI authenticated (if using Azure)
 - Access to your cloud provider account
+- Install kubectl
+- Install docker packages and docker-compose (using apt here : https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+
+## Notes If you are using WSL :
+### az-cli install one command Linux WSL
+`curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
+### terraform ()
+1. Ensure system is up to date and that you have installed gnup and software-properties-common packages. Then use these packages to verify HashiCorp's GPG signature and install HashiCorp's Debian package repository. 
+
+`sudo apt-get update && sudo apt-get install -y gnupg software-properties-common`
+
+2. Install Hashicorp GPG's key
+
+```
+    wget -O- https://apt.releases.hashicorp.com/gpg | \
+    gpg --dearmor | \
+    sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+```
+
+3. Verify the GPG key fingerprint
+
+```
+gpg --no-default-keyring \
+--keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \
+--fingerprint
+```
+
+4. Add Hashicorp Repo to system
+
+```
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+
+```
+
+5. Apt update
+
+`sudo apt update`
+
+6. Finally Terraform install
+
+`sudo apt-get install terraform`
+
+### Access to cloud provider account through az cli
+
+az login --use-device
 
 ## Steps
 
@@ -145,3 +190,25 @@ This command displays the fields available for containers within the Deployment 
 **Note:**  
 - Adjust resource names and parameters to fit your environment.
 - Do not hardcode credentials or secrets in your Terraform files.
+<<<<<<< Updated upstream
+=======
+
+
+## Build first docker image for redish-app service built container
+
+(* Ensure to have docker compose installed )
+![Link to Documentation for the application](./redishapp.md)
+
+## Then Push to ACR Azure Container Registery
+![Link to ACR to AKS Simple deployment](./acr_to_aks.md)
+
+
+## How to Set PodAntiAffinity
+![Pod Anti Affinity for Availability](./pod_anti_affinity.md)
+
+## How to Setup Resource limits
+![Setup Resource limits](./resource_limits.md)
+
+## How to Setup a StatefulSet Deployment
+![Setup StatefulSet Deployment](./StatefulSet.md)
+>>>>>>> Stashed changes
