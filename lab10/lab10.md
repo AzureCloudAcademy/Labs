@@ -190,8 +190,6 @@ This command displays the fields available for containers within the Deployment 
 **Note:**  
 - Adjust resource names and parameters to fit your environment.
 - Do not hardcode credentials or secrets in your Terraform files.
-<<<<<<< Updated upstream
-=======
 
 
 ## Build first docker image for redish-app service built container
@@ -211,4 +209,3 @@ This command displays the fields available for containers within the Deployment 
 
 ## How to Setup a StatefulSet Deployment
 ![Setup StatefulSet Deployment](./StatefulSet.md)
->>>>>>> Stashed changes
