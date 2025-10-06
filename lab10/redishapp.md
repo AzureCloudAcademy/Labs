@@ -43,8 +43,6 @@ git clone https://github.com/redis-developer/Redish.git
 cd Redish
 ```
 
-`redis-cli -u redis://default:9FRjXBnFhxUU0jKrcPgdiLrXqKsitG8Z@redis-12154.c282.east-us-mz.azure.redns.redis-cloud.com:12154`
-
 ### Configure environment variables
 
 Create a `.env` file at the root:
