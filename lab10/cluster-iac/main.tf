@@ -105,7 +105,7 @@ resource "azurerm_kubernetes_cluster" "demo-aks" {
 
 
 resource "azurerm_container_registry" "demo-aks-container-registry" {
-  name                = "akscr"
+  name                = "AksConainerRegistry"
   resource_group_name = azurerm_resource_group.default.name
   location            = azurerm_resource_group.default.location
   sku                 = "Premium"
