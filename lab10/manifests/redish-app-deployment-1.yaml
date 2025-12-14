@@ -16,7 +16,8 @@ spec:
         app: redish-app
     spec:
       containers:
-      - image: .azurecr.io/redish-app:latest
+      - image: goldenhoneybeeaksregistry.azurecr.io/redish-app:latest
+        imagePullPolicy: Always
         name: redish-app
         ports:
         - containerPort: 80
