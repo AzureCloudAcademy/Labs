@@ -1,5 +1,35 @@
 # Labs
-Labs public repository to share labs content with participants
+Labs public repository to share labs content with participants.
+
+## Prerequisites
+
+### 1. Create Outlook Account
+https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0
+
+### 2. Create Azure Accounts
+- https://azure.microsoft.com/en-us/
+- https://portal.azure.com/#allservices/category/All
+
+### 3. Azure DevOps
+- https://aex.dev.azure.com/me?mkt=en-US
+- https://dev.azure.com/
+- https://dev.azure.com/Gopal-DevOps2025-July/
+
+### 4. Create GitHub Account
+https://github.com/
+
+### Labs Requirements
+- **Browser:** Microsoft Edge or Azure DevOps-supported browser
+- **Azure Subscription:** Create one at https://azure.microsoft.com/free
+- **Azure DevOps Organization:** Create one at https://dev.azure.com
+- **Git for Windows:** Required for labs
+- **Visual Studio Code:** Required for labs
+    - MCP server vscode extension (to accelerate development)
+- **Azure CLI:** Install on self-hosted agent machines
+- **Latest .NET SDK:** Install on self-hosted agent machines
+
+### Recommended VSCode Extensions
+- Bicep vscode extension
 
 ## 1) 📌 Labs structure plan
 
@@ -18,6 +48,7 @@ Labs public repository to share labs content with participants
 - **Lab 13:** [Configuring CI/CD Pipelines as Code with YAML in Azure DevOps](lab13/lab13.md)
 - **Lab 14:** [Deploying a Docker Web Application to Azure App Service](lab14/lab14.md)
 - **Lab 15:** [Deploying to Azure VM using Deployment](lab15/lab15.md)
+- **Lab LoadBalancer:** [Understand How LoadBalancer turns on and different strategies](lab-lb/lab.md)
 
 
 
