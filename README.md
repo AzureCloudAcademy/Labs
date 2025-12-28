@@ -67,9 +67,7 @@ In order to limit Operational overhead and managing role based access resources,
 For now we shown only csv, excel report test results generation.
 
 ### Q. [App Services, Function runtime] What's the behind cost calculation for Pay as you go on Function App usage ?
-First 1000 requests for the Free tier is free, then cost depends on CPU function usage.
-
-### Q. [TF Cluster Provisionining ] Troubleshoot the MissingSubscriptionRegistration error
+First 1000 requests for the Free tier is free, then cost depends on CPU function usage
 
 ## 4) 📌 Contributing
 

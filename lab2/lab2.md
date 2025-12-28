@@ -48,3 +48,14 @@ Click on Invite member
 1. **Setup - Organization**
 2. **Setup - Projects**
 4. **Setup Organization**
+
+# 🚀 Azure Cloud Academy – Weekly Assignment 🌍
+
+✅ Create your accounts: Outlook, Azure Cloud, Azure DevOps, GitHub (/) must already be done
+✅ Create an Azure DevOps Organization & Project (/) must already be done
+✅ Onboard your team at the organization level
+✅ Create an Agile Board in Azure DevOps
+✅ Set up an Azure Repo for code version control
+
+📸 Final Task:
+Take a screenshot of your setup, create a LinkedIn post, and tag the Azure Cloud Academy page so we can celebrate your progress together 🎉

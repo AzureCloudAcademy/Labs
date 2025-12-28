@@ -92,3 +92,10 @@ It's easy to get started with the "Integrate Active Directory with Microsoft Ent
 9.  **Make it Yours**: Customize the hybrid identity Azure template to match your specific security policies and requirements.
 
 
+# 🚀 Azure Cloud Academy – Weekly Assignment 🌍
+
+✅ Create a user account (display name, under IT department, autogenerate password)
+✅ Invite external account
+
+📸 Final Task:
+Take a screenshot of your setup, create a LinkedIn post, and tag the Azure Cloud Academy page so we can celebrate your progress together 🎉
